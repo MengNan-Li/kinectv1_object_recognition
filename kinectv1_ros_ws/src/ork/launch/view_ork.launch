@@ -1,0 +1,3 @@
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ork)/rviz/ork.rviz" output="screen"/>
+</launch>

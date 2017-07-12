@@ -1,0 +1,4 @@
+<launch>
+  <node name="ork_detection" pkg="object_recognition_core" type="detection" args="-c  $(find object_recognition_tabletop)/conf/detection.object.ros.ork
+" output="screen"/>
+</launch>

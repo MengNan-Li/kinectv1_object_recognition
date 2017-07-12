@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find ork)/launch/kinect1.launch" />
+  <include file="$(find ork)/launch/object_recognition.launch" />
+  <node name="object_tf_publish" pkg="ork" type="ork_transform" output="screen"/>
+  <node name="camera_base_tf_publish" pkg="ork" type="camera_base_tf_publish"/>
+</launch>
